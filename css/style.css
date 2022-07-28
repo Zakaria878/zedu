@@ -1,0 +1,33 @@
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:#1D1D1DB2;
+    opacity: 0.7;
+    ;
+}
+
+
+.slider-btn .btn{
+    padding: 13px 33px;
+    background: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.btnjoin{
+    padding: 13px 33px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #289BDE;
+    font-weight: 600;
+    font-size: 20px;
+}
