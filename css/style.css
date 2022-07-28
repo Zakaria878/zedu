@@ -22,31 +22,3 @@
     font-weight: 600;
     font-size: 20px;
 }
-.btnjoin{
-    padding: 13px 33px;
-    background: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    border-radius: 5px;
-    color: #289BDE;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.hero {
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    z-index: 2;
-}
-
-.hero::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(21, 20, 51, 0.8);
-    z-index: -1;
-}
